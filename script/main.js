@@ -1,3 +1,25 @@
+(function() {
+    $(document).ready(function() {
+
+        // hide .navbar first
+        $(".top_menu").hide();
+
+        // fade in .navbar
+        $(function() {
+            $(window).scroll(function() {
+
+                // set distance user needs to scroll before we start fadeIn
+                if ($(this).scrollTop() > 200) {
+                    $('.top_menu').fadeIn();
+                } else {
+                    $('.top_menu').fadeOut();
+                }
+            });
+        });
+
+    });
+}());
+
 $(document).ready(function() {
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -18,3 +40,7 @@ $(document).ready(function() {
         } // End if
     });
 });
+
+$('.nav-link').click(function() {
+    $('.collapse').collapse('hide');
+})

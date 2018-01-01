@@ -9,8 +9,31 @@
     src: url("../fonts/slider.ttf");
 }
 
+@font-face {
+    font-family: "logo";
+    src: url("../fonts/darqoo_font.ttf");
+}
+
 body {
     overflow-x: hidden;
+}
+.logo_slider {
+    font-family: logo;
+    font-size: 230px;
+    color: black;
+    text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff;
+    line-height: 0px;
+}
+
+.logo {
+    position: absolute;
+    top: 68px;
+    left: 19px;
+    z-index: 99;
+}
+
+.logo img {
+    width: 200px;
 }
 
 .carousel-caption {
@@ -72,6 +95,12 @@ body {
 }
 
 @media(max-width: 399.99px) {
+    .logo {
+        top: 42px;
+    }
+    .logo_slider {
+        font-size: 150px;
+    }
     .carousel-caption h1 {
         font-size: 2rem;
     }
@@ -81,6 +110,9 @@ body {
 }
 
 @media(min-width: 400px) and (max-width: 767.99px) {
+    .logo_slider {
+        font-size: 150px;
+    }
     .carousel-caption h1 {
         font-size: 2.5rem;
     }
