@@ -42,6 +42,32 @@ body {
     margin-left: -30px;
     margin-right: -30px;
 }
+
+.fdev, .photo, .sky, .electro, .traveller {
+    background-position: center;
+    height: 100vh;
+}
+
+.fdev {
+    background-image: url("../images/fdev_2.jpg");
+}
+
+.photo {
+    background-image: url("../images/light_3.jpg");
+}
+
+.sky {
+    background-image: url("../images/sky.jpg");
+}
+
+.electro {
+    background-image: url("../images/electro.jpg");
+}
+
+.traveller {
+    background-image: url("../images/mn.jpg");
+}
+
 @media(max-width: 399.99px) {
     .carousel-caption h1 {
         font-size: 2rem;
@@ -50,6 +76,7 @@ body {
         font-size: 1rem;
     }
 }
+
 @media(min-width: 400px) and (max-width: 767.99px) {
     .carousel-caption h1 {
         font-size: 2.5rem;
