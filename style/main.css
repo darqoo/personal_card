@@ -1,0 +1,60 @@
+/*testing box*/
+
+/** {
+    border: 1px solid red;
+}*/
+
+@font-face {
+    font-family: "slider";
+    src: url("../fonts/slider.ttf");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.carousel-caption {
+    font-family: slider;
+    text-shadow: 3px 3px 1px #000;
+    bottom: 35%;
+    transform: translate(0, 50%);
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+}
+
+.carousel-item {
+    max-height: 100vh;
+}
+
+.alpha {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.font-black {
+    color: #000;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.no-padding {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+@media(max-width: 399.99px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+@media(min-width: 400px) and (max-width: 767.99px) {
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
+}
