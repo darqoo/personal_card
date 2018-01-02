@@ -188,7 +188,7 @@ body {
     font-size: 15px;
     letter-spacing: 2px;
     margin-top: -3px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .big_desc_title h2 {
@@ -224,6 +224,15 @@ body {
     }
     .carousel-caption p {
         font-size: 1rem;
+    }
+}
+
+@media(max-width: 575.99px) {
+    .section_title {
+        font-size: 20px;
+    }
+    .section_desc {
+        font-size: 45px;
     }
 }
 
