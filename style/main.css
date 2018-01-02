@@ -5,6 +5,16 @@
 }*/
 
 @font-face {
+    font-family: "Raleway-regular";
+    src: url("../fonts/Raleway-v4020-Regular.otf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
     font-family: "slider";
     src: url("../fonts/slider.ttf");
 }
@@ -16,7 +26,14 @@
 
 body {
     overflow-x: hidden;
+    font-family: Raleway-regular;
+    font-size: 14px;
 }
+
+.h100 {
+    height: 100%;
+}
+
 .logo_slider {
     font-family: logo;
     font-size: 230px;
@@ -66,7 +83,7 @@ body {
     padding-right: 0px;
 }
 
-.fdev, .photo, .sky, .electro, .traveller {
+.fdev, .photographer, .sky, .electro, .traveller {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +95,7 @@ body {
     background-image: url("../images/fdev_2.jpg");
 }
 
-.photo {
+.photographer {
     background-image: url("../images/light_3.jpg");
 }
 
@@ -92,6 +109,47 @@ body {
 
 .traveller {
     background-image: url("../images/mn.jpg");
+}
+
+.section_title {
+    background: #FFC815;
+    float: left;
+    padding: 14px 30px;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.section_desc {
+    float: left;
+    width: 100%;
+    position: relative;
+    font-size: 53px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #191919;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desc {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.desc_align {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media(max-width: 399.99px) {
@@ -112,6 +170,9 @@ body {
 @media(min-width: 400px) and (max-width: 767.99px) {
     .logo_slider {
         font-size: 150px;
+    }
+    .logo {
+        top: 50px;
     }
     .carousel-caption h1 {
         font-size: 2.5rem;
