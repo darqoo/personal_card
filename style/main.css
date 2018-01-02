@@ -131,7 +131,7 @@ body {
 }
 
 .section_title {
-    background: #FFC815;
+    background: #ffc300;
     float: left;
     padding: 14px 30px;
     color: #000;
@@ -153,6 +153,25 @@ body {
     text-transform: uppercase;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+}
+
+.title_separator {
+    background: #ffc300;
+    float: left;
+    width: 185px;
+    height: 3px;
+    position: relative;
+    margin-top: 11px;
+}
+
+.title_separator:before {
+    content: '';
+    background: #ffc300;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 65px;
+    height: 5px;
 }
 
 .desc {
