@@ -212,6 +212,22 @@ body {
     justify-content: space-between;
 }
 
+.quote {
+    background-image: url(./../images/code.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote_blur {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: Raleway-bold;
+    color: #fff;
+}
+.quote_blur p {
+    font-family: Raleway-regular;
+}
+
 @media(max-width: 399.99px) {
     .logo {
         top: 42px;
