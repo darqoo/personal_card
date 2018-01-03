@@ -173,7 +173,7 @@ body {
     content: '';
     background: #ffc300;
     position: absolute;
-    top: 4px;
+    top: -6px;
     left: 0;
     width: 65px;
     height: 5px;
@@ -224,8 +224,41 @@ body {
     font-family: Raleway-bold;
     color: #fff;
 }
+
 .quote_blur p {
     font-family: Raleway-regular;
+}
+
+.service_box {
+    padding: 10px;
+    height: 100%;
+}
+
+.service_box_inner {
+    border-top: 1px #565658 solid;
+    border-right: 1px #565658 solid;
+    border-bottom: 1px #565658 solid;
+    border-left: 1px #565658 solid;
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+}
+.service_box_inner img {
+    width: 90px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.service_box_inner h5 {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+.service_box_inner p {
+    font-family: lato;
 }
 
 @media(max-width: 399.99px) {
