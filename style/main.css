@@ -284,7 +284,7 @@ body {
     content: '';
     background: #ffc300;
     position: absolute;
-    top: 84px;
+    top: 99px;
     left: calc(50% - 28px);
     width: 57px;
     height: 4px;
@@ -294,9 +294,9 @@ body {
     content: '';
     background: #ffc300;
     position: absolute;
-    top: 90px;
-    left: calc(50% - 65px);
-    width: 130px;
+    top: 105px;
+    left: calc(50% - 90px);
+    width: 180px;
     height: 2px;
 }
 

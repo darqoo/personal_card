@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/scroll_down.css">
+    <script src="./script/CircleChart.js" charset="utf-8"></script>
 </head>
 
 <body id="page_top">
@@ -159,10 +160,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12"><p>
-                    Decrition of my services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque amet expedita ipsa illum beatae placeat nulla, dignissimos consequuntur voluptas debitis rem, tempore sequi! Autem nulla quo vitae porro non eum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In rerum molestias cumque tenetur harum, asperiores, perspiciatis iusto atque velit nam laudantium vel ipsum modi tempora debitis possimus a saepe sint.
-                </p>
+                <div class="col-12">
+                    <p>
+                        Decrition of my services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque amet expedita ipsa illum beatae placeat nulla, dignissimos consequuntur voluptas debitis rem, tempore sequi! Autem nulla quo vitae porro non eum. Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. In rerum molestias cumque tenetur harum, asperiores, perspiciatis iusto atque velit nam laudantium vel ipsum modi tempora debitis possimus a saepe sint.
+                    </p>
                 </div>
             </div>
             <div class="row">
@@ -198,10 +200,51 @@
         <div class="container-fluid mb-4">
             <div class="row skills">
                 <div class="col-12 quote_blur">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-12 pt-5 mb-1 pb-1">
+                            <h1 class="text-center mb-4"><div class="separator">SKILLS</div></h1>
+                        </div>
+                    </div>
                     <div class="row justify-content-center">
-                        <div class="col-5 pt-5 mb-5 pb-5">
-                            <h3 class="text-center mb-4"><div class="separator">SKILLS</div></h3>
+                        <div class="col-9">
+                            <div class="row text-center pb-3">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                                    <h5>JAVASCRIPT</h5>
+                                    <canvas id="CircleChart_1"></canvas>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                                    <h5>HTML5</h5>
+                                    <canvas id="CircleChart_2"></canvas>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                                    <h5>CSS3</h5>
+                                    <canvas id="CircleChart_3"></canvas>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                                    <h5>REACT.JS</h5>
+                                    <canvas id="CircleChart_4"></canvas>
+                                </div>
 
+                                <script type="application/javascript">
+                                    var chart1 = new CircleChart();
+                                    chart1.setColors('#ffe882', '#ffd50c');
+                                    chart1.init("CircleChart_1", 89);
+
+                                    var chart2 = new CircleChart();
+                                    chart2.setColors('#ff8956', '#e44d26');
+                                    chart2.init("CircleChart_2", 90);
+
+                                    var chart3 = new CircleChart();
+                                    chart3.setColors('#29a9df', '#0070ba');
+                                    chart3.init("CircleChart_3", 89);
+
+                                    var chart4 = new CircleChart();
+                                    chart4.setColors('#222222', '#62ddfe');
+                                    chart4.init("CircleChart_4", 52);
+                                </script>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
