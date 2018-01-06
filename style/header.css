@@ -1,0 +1,91 @@
+.logo_slider {
+    font-family: logo;
+    font-size: 230px;
+    color: black;
+    text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff;
+    line-height: 0px;
+}
+
+.logo {
+    position: absolute;
+    top: 68px;
+    left: 19px;
+    z-index: 99;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.carousel-caption {
+    font-family: slider;
+    text-shadow: 3px 3px 1px #000;
+    bottom: 50%;
+    transform: translate(0, 50%);
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+}
+
+.carousel-item {
+    max-height: 100vh;
+}
+
+.fdev, .photographer, .sky, .electro, .traveller {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.fdev {
+    background-image: url("../images/fdev_2.jpg");
+}
+
+.photographer {
+    background-image: url("../images/light_3.jpg");
+}
+
+.sky {
+    background-image: url("../images/sky.jpg");
+}
+
+.electro {
+    background-image: url("../images/electro.jpg");
+}
+
+.traveller {
+    background-image: url("../images/mn.jpg");
+}
+
+@media(max-width: 399.99px) {
+    .logo {
+        top: 42px;
+    }
+    .logo_slider {
+        font-size: 150px;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 767.99px) {
+    .logo_slider {
+        font-size: 150px;
+    }
+    .logo {
+        top: 50px;
+    }
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
+}

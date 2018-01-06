@@ -1,0 +1,32 @@
+.small_desc_title, .big_desc_title {
+    font-family: Raleway-bold;
+    color: #565658;
+}
+
+.small_desc_title {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.big_desc_title h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.desc {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.desc_align {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

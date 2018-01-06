@@ -1,0 +1,23 @@
+.skills {
+    background-image: url(./../images/fdev_3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.skills_icon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.skills_icon img {
+    max-width: 50px;
+    max-height: 50px;
+    padding-bottom: 10px;
+}
+
+.skills_icon p {
+    font-family: Raleway-bold;
+}

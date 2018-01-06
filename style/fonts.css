@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Raleway-regular";
+    src: url("../fonts/Raleway-v4020-Regular.otf");
+}
+
+@font-face {
+    font-family: "Raleway-bold";
+    src: url("../fonts/Raleway-v4020-Bold.otf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "slider";
+    src: url("../fonts/slider.ttf");
+}
+
+@font-face {
+    font-family: "logo";
+    src: url("../fonts/darqoo_font.ttf");
+}
