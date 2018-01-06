@@ -1,0 +1,44 @@
+.contact {
+    background-image: url("./../images/contact_bg.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 61px);
+}
+
+.contact .row {
+}
+
+.contact_blur_1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: calc(70vh);
+    font-family: Raleway-bold;
+    color: #fff;
+}
+
+.contact_blur_2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: calc(30vh - 61px - 35px);
+    font-family: Raleway-bold;
+    color: #fff;
+}
+
+.find {
+    font-family: Raleway-regular;
+}
+
+.find::before {
+    content: '';
+    background: #ffc300;
+    position: absolute;
+    top: 65px;
+    left: calc(50% - 90px);
+    width: 180px;
+    height: 1px;
+}
+
+.footer {
+    background-color: #000000;
+    height: 35px;
+    margin: 0 -15px 0 -15px;
+}
