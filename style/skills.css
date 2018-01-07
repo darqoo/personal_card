@@ -5,19 +5,147 @@
     background-size: cover;
 }
 
-.skills_icon {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding-top: 16px;
+.other_skills {
+    padding: 0;
+    margin: 2em 0 4em 0;
+    list-style: none;
 }
 
-.skills_icon img {
-    max-width: 50px;
-    max-height: 50px;
-    padding-bottom: 10px;
+.skill {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: -3px;
 }
 
-.skills_icon p {
-    font-family: Raleway-bold;
+.skill {
+    display: inline-block;
+    margin: 4px 5px 0.3em 0;
+    width: 54px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: #00000069;
+}
+
+.skill {
+    font-size: 36px;
+    font-family: "icons";
+}
+
+.skill a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+}
+
+.skill:hover {
+    border-color: transparent;
+}
+
+.other_skills>.pos_rel {
+    height: 56px;
+    margin-bottom: -10px;
+}
+
+.jquery a {
+    font-size: 49px !important;
+    position: absolute;
+    top: -16px;
+    left: -3px;
+}
+
+.jquery:hover {
+    background-color: #1169ae !important;
+}
+
+.rwd:hover {
+    background-color: #00a48f !important;
+}
+
+.ws:hover a {
+    color: #000000 !important;
+}
+
+.ws:hover {
+    background-color: #00cdd7 !important;
+}
+
+.npm:hover a {
+    color: #cb3837 !important;
+}
+
+.npm:hover {
+    background-color: #ffffff !important;
+}
+
+.git:hover {
+    background-color: #ffffff !important;
+}
+
+.git:hover a {
+    color: #f54b28 !important;
+}
+
+.tdd:hover {
+    background-color: #333333 !important;
+}
+
+.webpack:hover a {
+    color: #1c78c0 !important;
+}
+.webpack:hover {
+    background-color: #a7c4ee !important;
+}
+
+.ps:hover a {
+    color: #32c5f0 !important;
+}
+.ps:hover {
+    background-color: #1f1c37 !important;
+}
+
+.bootstrap:hover a {
+    color: #563d7c !important;
+}
+.bootstrap:hover {
+    background-color: #ffffff !important;
+}
+
+.wp:hover {
+    background-color: #2a94bb !important;
+}
+
+.linux:hover {
+    background-color: #ffffff !important;
+}
+.linux:hover a {
+    color: #000000 !important;
+}
+
+.atom:hover {
+    background-color: #5fb57d !important;
+}
+
+.ajax:hover {
+    background-color: #ffffff !important;
+}
+.ajax:hover a {
+    color: #338dcb !important;
+}
+
+.scrum:hover {
+    background-color: #ffffff !important;
+}
+.scrum:hover a {
+    color: #f99728 !important;
+}
+
+.es6:hover a {
+    color: #343433 !important;
+}
+.es6:hover {
+    background-color: #fbde34 !important;
+}
+
+.oop:hover {
+    background-color: #e55126 !important;
 }
