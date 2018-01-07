@@ -13,6 +13,25 @@
     color: #fff;
 }
 
+.contact_title {
+    text-align: left;
+    font-family: Raleway-regular;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.contact_title h2 {
+
+}
+
+.contact_desc {
+    text-align: left;
+    font-family: Raleway-regular;
+}
+.contact_desc p {
+    font-size: 15px;
+}
+
 .contact_blur_2 {
     background-color: rgba(0, 0, 0, 0.8);
     height: 177px;
@@ -20,7 +39,7 @@
     color: #fff;
 }
 
-.find {
+.find, .contact_title {
     font-family: Raleway-regular;
 }
 
@@ -55,7 +74,7 @@ a:active, a:hover, a:visited {
 .social_icon li a {
     display: block;
     float: left;
-    margin: 0 .4em .3em 0;
+    margin: 0 0 0 7px;
     text-align: center;
     font-size: 25px;
     font-family: "icons";
