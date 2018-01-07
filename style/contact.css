@@ -6,8 +6,6 @@
     height: calc(100vh - 61px);
 }
 
-.contact .row {}
-
 .contact_blur_1 {
     background-color: rgba(0, 0, 0, 0.6);
     height: calc(100vh - 61px - 177px - 35px);
@@ -84,4 +82,22 @@ a:active, a:hover, a:visited {
     background-color: #000000;
     height: 35px;
     margin: 0 -15px 0 -15px;
+}
+
+.footer p {
+    margin-left: 20%;
+    width: 100%;
+    text-align: left;
+    color: #499aeb;
+    line-height: 35px;
+}
+
+.footer p>a {
+    text-decoration: none;
+    color: #499aeb;
+}
+
+.footer p>a:hover, .footer p>a:active, .footer p>a:visited, .footer p>a:focus {
+    text-decoration: none;
+    color: #499aeb;
 }
