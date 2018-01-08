@@ -1,4 +1,5 @@
 body {
+    position: relative;
     overflow-x: hidden;
     font-family: Raleway-regular;
     font-size: 14px;
