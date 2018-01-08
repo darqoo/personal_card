@@ -4,6 +4,7 @@
     background-position: center;
     background-size: cover;
     height: calc(100vh - 61px);
+    min-height: 650px;
 }
 
 .contact_blur_1 {
@@ -11,6 +12,7 @@
     height: calc(100vh - 61px);
     font-family: Raleway-bold;
     color: #fff;
+    min-height: 650px;
 }
 
 .padding_title {
