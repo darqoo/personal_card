@@ -47,3 +47,7 @@ $(document).ready(function() {
 $('.nav-link').click(function() {
     $('.collapse').collapse('hide');
 })
+
+$('.skill').click(function (e) {
+    e.preventDefault();
+})
