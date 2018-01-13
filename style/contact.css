@@ -81,6 +81,26 @@
     padding-bottom: 2vh;
 }
 
+.contact_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_item>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item_desc {
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.contact_item img {
+    max-width: 4.5vh;
+}
+
 .find, .contact_title {
     font-family: Raleway-regular;
 }
@@ -168,4 +188,10 @@ a:active, a:hover, a:visited {
 .footer p>a:hover, .footer p>a:active, .footer p>a:visited, .footer p>a:focus {
     text-decoration: none;
     color: #499aeb;
+}
+
+@media(min-width: 768px) {
+    .contact_item {
+        margin-left: 37%;
+    }
 }
