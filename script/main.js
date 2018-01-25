@@ -1,13 +1,5 @@
 window.addEventListener('load', function() {
     $("#loader_bg").fadeOut();
-    setTimeout(
-        function() {
-            homePage();
-        }, 600);
-    var firstLi = document.getElementsByClassName('pagination')[0].firstChild.firstChild;
-    firstLi.addEventListener("click", function() {
-        setTimeout(homePage, 1000);
-    });
 });
 
 (function() {
