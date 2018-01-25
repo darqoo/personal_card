@@ -41,6 +41,11 @@ $(document).ready(function() {
             });
         }
     });
+    $('.carousel').carousel({
+        keyboard: true,
+        pause: false,
+        ride: true
+    })
 });
 
 $('.nav-link').click(function() {
