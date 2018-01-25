@@ -46,23 +46,23 @@
 }
 
 .fdev {
-    background-image: url("../images/fdev_2.jpg");
+    background-image: url("../images/carousel/fdev_2.jpg");
 }
 
 .photographer {
-    background-image: url("../images/light_3.jpg");
+    background-image: url("../images/carousel/light_3.jpg");
 }
 
 .sky {
-    background-image: url("../images/sky.jpg");
+    background-image: url("../images/carousel/sky.jpg");
 }
 
 .electro {
-    background-image: url("../images/electro.jpg");
+    background-image: url("../images/carousel/electro.jpg");
 }
 
 .traveller {
-    background-image: url("../images/mn.jpg");
+    background-image: url("../images/carousel/mn.jpg");
 }
 
 @media(max-width: 399.99px) {

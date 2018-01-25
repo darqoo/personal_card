@@ -93,6 +93,7 @@
 .webpack:hover a {
     color: #1c78c0 !important;
 }
+
 .webpack:hover {
     background-color: #a7c4ee !important;
 }
@@ -100,6 +101,7 @@
 .ps:hover a {
     color: #32c5f0 !important;
 }
+
 .ps:hover {
     background-color: #1f1c37 !important;
 }
@@ -107,6 +109,7 @@
 .bootstrap:hover a {
     color: #563d7c !important;
 }
+
 .bootstrap:hover {
     background-color: #ffffff !important;
 }
@@ -118,6 +121,7 @@
 .linux:hover {
     background-color: #ffffff !important;
 }
+
 .linux:hover a {
     color: #000000 !important;
 }
@@ -129,6 +133,7 @@
 .ajax:hover {
     background-color: #ffffff !important;
 }
+
 .ajax:hover a {
     color: #338dcb !important;
 }
@@ -136,6 +141,7 @@
 .scrum:hover {
     background-color: #ffffff !important;
 }
+
 .scrum:hover a {
     color: #f99728 !important;
 }
@@ -143,6 +149,7 @@
 .es6:hover a {
     color: #343433 !important;
 }
+
 .es6:hover {
     background-color: #fbde34 !important;
 }

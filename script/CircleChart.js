@@ -72,7 +72,7 @@ function CircleChart() {
         var x = canvasWidth / 2;
         var y = canvasHeight / 2;
         var startAngle = 1.5 * Math.PI;
-        var stopAngle =  2 * (getPercent()/100) * Math.PI + startAngle;
+        var stopAngle = 2 * (getPercent() / 100) * Math.PI + startAngle;
 
         drawText();
 
@@ -123,8 +123,7 @@ function CircleChart() {
         darkColor = darkCol;
     }
 
-    function setCallbacks(canvasElement) {
-    }
+    function setCallbacks(canvasElement) {}
 
     function init(canvasId, initialPercent) {
         if (initialPercent != null) {

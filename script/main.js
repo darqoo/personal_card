@@ -36,7 +36,7 @@ $(document).ready(function() {
             }, 800, function() {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
-                window.scrollTo(0,$(hash).offset().top - 61);
+                window.scrollTo(0, $(hash).offset().top - 61);
 
 
             });
@@ -48,6 +48,6 @@ $('.nav-link').click(function() {
     $('.collapse').collapse('hide');
 })
 
-$('.skill').click(function (e) {
+$('.skill').click(function(e) {
     e.preventDefault();
 })
